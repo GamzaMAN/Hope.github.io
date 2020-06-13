@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>To Do List</title>
+		<link rel="stylesheet" href="ToDoList.css"/>
+	</head>
+	<body>
+		<div id="js-user">
+			<Form id="js-user-form" class="hideTag">
+				<input type="text" placeholder="What is your name?" />
+			</Form>
+			<h1 id="js-title"></h1>
+		</div>
+
+		<Form id="js-toDo-form">
+			<input type="text" placeholder="Task" />
+		</Form>
+
+		<div id="js-toDo">
+			<div id="pendings" class="list">
+				<h2 id="js-pending-title" >Pendings</h2>
+				<ul id="js-pending-list">
+				</ul>
+			</div>
+			 
+			<div id="finishs" class="list">
+				<h2 id="js-finish-title">Finished</h2>
+				<ul id="js-finish-list">
+				</ul>
+			</div>
+			
+		</div>
+
+		<div id="js-clock">
+			<h1 id="js-curTime">00:00</h1>
+		</div>
+
+		<div id="js-weather">
+			<h2 id="js-curWeather"></h2>
+		</div>
+		
+		<script src="./js/BG.js"></script>
+		<script src="./js/Clock.js"></script>
+		<script src="./js/User.js"></script>
+		<script src="./js/ToDo.js"></script>
+		<script src="./js/Weather.js"></script>
+	</body>
+</html>
